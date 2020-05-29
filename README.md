@@ -1,10 +1,16 @@
 # Computer Set Up
+firefox
+slack
+docker
+synergy
+kubectl
 
 ## Install
 
 ## ssh 
 - generate ssh 
 - add ssh key to github
+
 ## prereq
 - apt install zsh tmux vim htop xclip git openssl -y
 
