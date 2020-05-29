@@ -1,0 +1,10 @@
+# ANSI color codes
+RS="%{$reset_color%}"  # reset
+BLK="\[\033[30m\]"     # foreground black
+RED="%{$fg[red]%}"     # foreground red
+GRN="%{$fg[green]%}"   # foreground green
+YEL="%{$fg[yellow]%}"  # foreground yellow
+BLE="%{$fg[blue]%}"    # foreground blue
+MAG="%{$fg[magenta]%}" # foreground magenta
+CYN="%{$fg[cyan]%}"    # foreground cyan
+WHT="%{$fg[white]%}"   # foreground white
