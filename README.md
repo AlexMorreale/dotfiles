@@ -1,9 +1,16 @@
 # Computer Set Up
-firefox
-slack
-docker
+## firefox
+turn off smart tabbing
+https://support.mozilla.org/en-US/kb/tab-preferences-and-settings
+
+## slack
+can apt install but needs repo added
+
+## docker
 synergy
-kubectl
+
+##kubectl
+probably could use docker
 
 ## Install
 

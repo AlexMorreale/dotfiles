@@ -44,9 +44,8 @@ export LS_COLORS="di=01;93:ln=01;93:pi=40;33:so=01;35:do=01;37:bd=40;33;01:cd=40
 
 # TOOO: install fzf
 # [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-# 
-# TOOO: install asdf
-# . $HOME/.asdf/asdf.sh
-# 
+
+. $HOME/.asdf/asdf.sh
+
 # . $HOME/.asdf/completions/asdf.bash
 
