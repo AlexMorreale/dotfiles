@@ -7,9 +7,8 @@ https://support.mozilla.org/en-US/kb/tab-preferences-and-settings
 can apt install but needs repo added
 
 ## docker
-synergy
 
-##kubectl
+## kubectl
 probably could use docker
 
 ## Install
