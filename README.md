@@ -1,17 +1,30 @@
 # Computer Set Up
-## firefox
+
+## 🚀 Automated Installation (NEW!)
+
+Fresh Ubuntu 24.04 LTS setup in 3 commands:
+
+```bash
+# 1. Clone this repo
+git clone https://github.com/yourusername/dotfiles.git ~/personal/dotfiles
+
+# 2. Run basic setup
+cd ~/personal/dotfiles && ./install.sh
+
+# 3. Run DevOps tools (optional)
+./devops-setup.sh
+```
+
+## Manual Steps After Installation
+
+### Firefox
 turn off smart tabbing
 https://support.mozilla.org/en-US/kb/tab-preferences-and-settings
 
-## slack
-can apt install but needs repo added
-
-## docker
-
-## kubectl
-probably could use docker
-
-## Install
+### Slack
+```bash
+sudo snap install slack --classic
+```
 
 ## ssh 
 - generate ssh 
