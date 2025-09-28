@@ -78,5 +78,19 @@ else
     echo "Azure CLI already installed, skipping..."
 fi
 
+# Claude Code
+echo "🤖 Installing Claude Code..."
+if ! command -v claude &> /dev/null; then
+    curl -sSL https://claude.ai/install.sh | bash
+    # Add Claude to PATH if not already there
+    if ! grep -q 'claude' ~/.zshrc 2>/dev/null; then
+        echo '' >> ~/.zshrc
+        echo '# Claude Code CLI' >> ~/.zshrc
+        echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.zshrc
+    fi
+else
+    echo "Claude Code already installed, skipping..."
+fi
+
 echo "✅ DevOps tools installation complete!"
 echo "Run 'source ~/.zshrc' to refresh your shell environment."
